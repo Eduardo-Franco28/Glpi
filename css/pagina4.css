@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    
+}
+body{
+    overflow: hidden;
+    background-color: #ccc;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row wrap;
+    width: 100%;
+    height: 100px;
+    background-color: #4B0082;
+    font-size: 25px;
+    padding: 5px 0px;
+}
+header img{
+    width: 150px;
+    height: auto;
+    margin: 0px 0px 0px 10px;
+}
+header nav img{
+    width: 100px;
+    height: auto;
+    margin: 0px 10px 0px 0px;
+}
+#coluna{
+    background-color: #333333;
+    position: relative;
+    margin-bottom: 100px;
+    height: 85vh;
+    width: 270px;
+}
+#coluna ul a{
+    display: block;
+    line-height: 195px;
+    text-indent: 9px;
+    font-size: 18px;
+    text-transform: uppercase;
+    transition: all 200ms ease-in;
+    font-family: "Roboto", sans-serif;
+}
+#coluna ul a:hover{
+    background-color: #a992d4;
+}
+.link{
+    color: white;
+}
+footer{
+    background-color: #4B0082;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    color: white;
+    height: 80px;
+    display: flex;
+    flex-direction: row wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+footer .p1{
+    margin-right: 100px;
+}
+table{   
+    position: fixed;
+    right: 400px;
+    top: 350px;
+    border: 1px solid;
+}
+table.minha-tabela {
+    border-collapse: collapse; 
+    margin: 20px 0;           
+    font-family: Arial, sans-serif; 
+  }
+  table.minha-tabela th,
+  table.minha-tabela td {
+    padding: 12px;            
+    text-align: left;        
+    border: 1px solid #ddd;  
+  }
+table{
+    background-color: #9f9f9f; 
+    color: #000000;               
+}
+.poatan{
+    background-color: #9f9f9f;
+    align-items: center;
+    width: 700px;
+    height: 80px;
+    position: fixed;
+    left: 38.5%;
+    top: 100px;
+}
+.alex{
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+.Pesquisar{
+    background-color: #a992d4;
+    color: #ffffff;
+    border: none;
+    width: 70px;
+    height: 30px;
+    margin-top: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.Pesquisar:hover{
+    background-color: #4B0082;
+    color: white;
+    transition: all 200ms ease-in-out;
+}
